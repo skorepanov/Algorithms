@@ -8,6 +8,7 @@
 
 ## Сортировка
 
+- [Insertion sort - Сортировка вставкой](./Sorting/InsertionSort/InsertionSort.md)
 - [Selection sort - Сортировка выбором](./Sorting/SelectionSort/SelectionSort.md)
 - [Quicksort - Быстрая сортировка](./Sorting/Quicksort/Quicksort.md)
 
