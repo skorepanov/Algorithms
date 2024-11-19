@@ -1,5 +1,5 @@
-﻿var list = new List<int> { 20, 10, 15, 5, 1, 3, 2 };
-var sortedList = quicksort(list);
+﻿var sourceList = new List<int> { 20, 10, 15, 5, 1, 3, 2 };
+var sortedList = quicksort(sourceList);
 
 foreach (var item in sortedList)
 {

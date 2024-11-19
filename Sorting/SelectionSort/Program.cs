@@ -1,17 +1,18 @@
-﻿var list = new List<int> { 20, 10, 15, 5, 1, 3, 2 };
+﻿var sourceList = new List<int> { 20, 10, 15, 5, 1, 3, 2 };
 var sortedList = new List<int>();
 
-for (var i = list.Count - 1; i >= 0; i--)
+for (var i = sourceList.Count - 1; i >= 0; i--)
 {
-    var smallestIndex = findSmallestIndex(list);
-    sortedList.Add(list[smallestIndex]);
-    list.RemoveAt(smallestIndex);
+    var smallestIndex = findSmallestIndex(sourceList);
+    sortedList.Add(sourceList[smallestIndex]);
+    sourceList.RemoveAt(smallestIndex);
 }
 
 foreach (var item in sortedList)
 {
     Console.WriteLine(item);
 }
+
 
 int findSmallestIndex(List<int> list)
 {
