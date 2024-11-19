@@ -1,7 +1,7 @@
-﻿var list = new List<int> { 1, 2, 3, 5, 10, 15, 20 };
+﻿var sourceList = new List<int> { 1, 2, 3, 5, 10, 15, 20 };
 var itemToSearch = 3;
 
-var index = interpolationSearch(list, itemToSearch);
+var index = interpolationSearch(sourceList, itemToSearch);
 
 Console.WriteLine($"Индекс элемента {itemToSearch}: {index ?? -1}");
 

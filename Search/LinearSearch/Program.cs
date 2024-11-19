@@ -1,9 +1,9 @@
-﻿var list = new List<int> { 1, 2, 3, 5, 10, 15, 20 };
+﻿var sourceList = new List<int> { 1, 2, 3, 5, 10, 15, 20 };
 var itemToSearch = 3;
 
-var index = linearSearch(list, itemToSearch);
+var index = linearSearch(sourceList, itemToSearch);
 
-Console.WriteLine($"Индекс элемента {itemToSearch}: {index}");
+Console.WriteLine($"Индекс элемента {itemToSearch}: {index ?? -1}");
 
 int? linearSearch(List<int> list, int item)
 {

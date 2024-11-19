@@ -1,9 +1,9 @@
-﻿var list = new List<int> { 1, 2, 3, 5, 10, 15, 20 };
+﻿var sourceList = new List<int> { 1, 2, 3, 5, 10, 15, 20 };
 var itemToSearch = 3;
 
-var index = binarySearch(list, itemToSearch);
+var index = binarySearch(sourceList, itemToSearch);
 
-Console.WriteLine($"Индекс элемента {itemToSearch}: {index}");
+Console.WriteLine($"Индекс элемента {itemToSearch}: {index ?? -1}");
 
 int? binarySearch(List<int> list, int item)
 {
