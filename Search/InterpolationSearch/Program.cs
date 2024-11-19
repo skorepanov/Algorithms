@@ -7,42 +7,44 @@ Console.WriteLine($"Индекс элемента {itemToSearch}: {index ?? -1}"
 
 int? interpolationSearch(List<int> list, int item)
 {
-    var low = 0;
-    var high = list.Count - 1;
+    var lowIndex = 0;
+    var highIndex = list.Count - 1;
 
-    while (list[low] < item && list[high] > item)
+    while (list[lowIndex] < item && list[highIndex] > item)
     {
         // защита от деления на 0
-        if (list[high] == list[low])
+        if (list[highIndex] == list[lowIndex])
         {
             break;
         }
 
-        var mid = low + ((item - list[low]) * (high - low)) / (list[high] - list[low]);
+        var middleIndex = lowIndex
+            + ((item - list[lowIndex]) * (highIndex - lowIndex))
+                / (list[highIndex] - list[lowIndex]);
 
-        if (list[mid] == item)
+        if (list[middleIndex] == item)
         {
-            return mid;
+            return middleIndex;
         }
 
-        if (list[mid] < item)
+        if (list[middleIndex] < item)
         {
-            low = mid + 1;
+            lowIndex = middleIndex + 1;
         }
-        else if (list[mid] > item)
+        else if (list[middleIndex] > item)
         {
-            high = mid - 1;
+            highIndex = middleIndex - 1;
         }
     }
 
-    if (list[low] == item)
+    if (list[lowIndex] == item)
     {
-        return low;
+        return lowIndex;
     }
 
-    if (list[high] == item)
+    if (list[highIndex] == item)
     {
-        return high;
+        return highIndex;
     }
 
     return null;
