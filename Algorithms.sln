@@ -1,7 +1,5 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinarySearch", "BinarySearch\BinarySearch.csproj", "{3AAB5622-8C86-4F77-A417-A5A1DE4B188F}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sorting", "Sorting", "{B09F93FA-2BD6-4E64-9D95-C15B82A80399}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SelectionSort", "Sorting\SelectionSort\SelectionSort.csproj", "{50F06F40-A9F9-4000-AB58-E6EDF1A94AA7}"
@@ -14,16 +12,16 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Graph", "Graph", "{1260E0FE
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BreadthFirstSearch", "Graph\BreadthFirstSearch\BreadthFirstSearch.csproj", "{DAC398A7-CD35-4959-9DE0-F2F145D5176D}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Search", "Search", "{4EB53428-ADCB-4649-8C9D-3C992BCA5864}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinarySearch", "Search\BinarySearch\BinarySearch.csproj", "{A165C13B-DFD8-4BBB-9167-15BABE131A50}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{3AAB5622-8C86-4F77-A417-A5A1DE4B188F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3AAB5622-8C86-4F77-A417-A5A1DE4B188F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3AAB5622-8C86-4F77-A417-A5A1DE4B188F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3AAB5622-8C86-4F77-A417-A5A1DE4B188F}.Release|Any CPU.Build.0 = Release|Any CPU
 		{50F06F40-A9F9-4000-AB58-E6EDF1A94AA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{50F06F40-A9F9-4000-AB58-E6EDF1A94AA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{50F06F40-A9F9-4000-AB58-E6EDF1A94AA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -40,10 +38,15 @@ Global
 		{DAC398A7-CD35-4959-9DE0-F2F145D5176D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DAC398A7-CD35-4959-9DE0-F2F145D5176D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DAC398A7-CD35-4959-9DE0-F2F145D5176D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A165C13B-DFD8-4BBB-9167-15BABE131A50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A165C13B-DFD8-4BBB-9167-15BABE131A50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A165C13B-DFD8-4BBB-9167-15BABE131A50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A165C13B-DFD8-4BBB-9167-15BABE131A50}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{50F06F40-A9F9-4000-AB58-E6EDF1A94AA7} = {B09F93FA-2BD6-4E64-9D95-C15B82A80399}
 		{DE0908CF-34C9-4C05-8A47-256333B73A59} = {B09F93FA-2BD6-4E64-9D95-C15B82A80399}
 		{DAC398A7-CD35-4959-9DE0-F2F145D5176D} = {1260E0FE-0BEF-4DA3-82D7-8A281967D9E9}
+		{A165C13B-DFD8-4BBB-9167-15BABE131A50} = {4EB53428-ADCB-4649-8C9D-3C992BCA5864}
 	EndGlobalSection
 EndGlobal
