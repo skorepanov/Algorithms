@@ -1,5 +1,5 @@
 ﻿var list = new List<int> { 20, 10, 15, 5, 1, 3, 2 };
-var sortedList = Quicksort(list);
+var sortedList = quicksort(list);
 
 foreach (var item in sortedList)
 {
@@ -7,7 +7,7 @@ foreach (var item in sortedList)
 }
 
 
-List<int> Quicksort(List<int> list)
+List<int> quicksort(List<int> list)
 {
     if (list.Count <= 1)
     {
@@ -21,8 +21,8 @@ List<int> Quicksort(List<int> list)
     var less = list.Where(i => i < pivot).ToList();
     var greater = list.Where(i => i > pivot).ToList();
 
-    var sortedLess = Quicksort(less);
-    var sortedGreater = Quicksort(greater);
+    var sortedLess = quicksort(less);
+    var sortedGreater = quicksort(greater);
 
     return sortedLess
         .Union(new[] { pivot })

@@ -3,7 +3,7 @@ var sortedList = new List<int>();
 
 for (var i = list.Count - 1; i >= 0; i--)
 {
-    var smallestIndex = FindSmallestIndex(list);
+    var smallestIndex = findSmallestIndex(list);
     sortedList.Add(list[smallestIndex]);
     list.RemoveAt(smallestIndex);
 }
@@ -13,7 +13,7 @@ foreach (var item in sortedList)
     Console.WriteLine(item);
 }
 
-int FindSmallestIndex(List<int> list)
+int findSmallestIndex(List<int> list)
 {
     var smallest = list[0];
     var smallestIndex = 0;

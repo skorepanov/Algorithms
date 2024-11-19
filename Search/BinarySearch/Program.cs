@@ -1,11 +1,11 @@
 ﻿var list = new List<int> { 1, 2, 3, 5, 10, 15, 20 };
 var itemToSearch = 3;
 
-var index = BinarySearch(list, itemToSearch);
+var index = binarySearch(list, itemToSearch);
 
 Console.WriteLine($"Индекс элемента {itemToSearch}: {index}");
 
-int? BinarySearch(List<int> list, int item)
+int? binarySearch(List<int> list, int item)
 {
     var lowIndex = 0;
     var highIndex = list.Count - 1;
