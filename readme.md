@@ -19,6 +19,7 @@
 ## Графы (сети)
 
 - [Breadth-First Search (BFS) - Поиск в ширину](./Graph/BreadthFirstSearch/BreadthFirstSearch.md).
+- [Depth-First Search (DFS) - Поиск в глубину](./Graph/DepthFirstSearch/DepthFirstSearch.md).
 
 ## Прочие алгоритмы
 
