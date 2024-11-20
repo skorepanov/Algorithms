@@ -11,8 +11,10 @@
 - Алгоритмы со сложностью `O(n^2)`.
    - [Insertion sort - Сортировка вставкой](./Sorting/InsertionSort/InsertionSort.md).
    - [Selection sort - Сортировка выбором](./Sorting/SelectionSort/SelectionSort.md).
+   - [Bubble sort - Сортировка пузырьком](./Sorting/BubbleSort/BubbleSort.md).
 - Алгоритмы со сложностью `O(n*log(n))`.
    - [Quicksort - Быстрая сортировка](./Sorting/Quicksort/Quicksort.md).
+   - [Merge sort - Сортировка слиянием](./Sorting/MergeSort/MergeSort.md).
 
 ## Графы (сети)
 
