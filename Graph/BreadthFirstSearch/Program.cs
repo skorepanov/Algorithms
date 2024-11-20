@@ -8,15 +8,16 @@
     [6] = new [] { 10 }
 };
 
-var desiredElement = findElement(graph);
+breadthFirstTraverse(graph);
 
 
-int? findElement(Dictionary<int, int[]> intsMap)
+void breadthFirstTraverse(IReadOnlyDictionary<int, int[]> intsMap)
 {
     var coveredElements = new HashSet<int>();
 
     var queue = new Queue<int>();
-    queue.Enqueue(intsMap.ElementAt(0).Key);
+    var firstKey = intsMap.ElementAt(0).Key;
+    queue.Enqueue(firstKey);
 
     while (queue.Any())
     {
@@ -31,11 +32,11 @@ int? findElement(Dictionary<int, int[]> intsMap)
 
         coveredElements.Add(element);
 
-        #region Если задача: найти элемент, удовлетворяющий некоторому условию
-        if (element == 9)
-        {
-            return element;
-        }
+        #region Если надо найти элемент, удовлетворяющий некоторому условию
+        // if (element == valueToFind)
+        // {
+        //     return element;
+        // }
         #endregion
 
         intsMap.TryGetValue(element, out var neighbours);
@@ -50,6 +51,4 @@ int? findElement(Dictionary<int, int[]> intsMap)
             queue.Enqueue(neighbour);
         }
     }
-
-    return null;
 }
