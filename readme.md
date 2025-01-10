@@ -19,6 +19,7 @@
      - [Heap sort - Сортировка кучей (Пирамидальная сортировка)](./Sorting/HeapSort/HeadSort.md).
 - Алгоритмы, не основывающиеся на сравнениях.
    - [Counting sort - Сортировка подсчётом](./Sorting/CountingSort/CountingSort.md).
+   - [Radix sort - Поразрядная сортировка](./Sorting/RadixSort/RadixSort.md).
 
 ## Графы (сети)
 
