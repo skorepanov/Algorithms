@@ -9,7 +9,7 @@ foreach (var item in sourceArray)
 
 void heapSort(int[] array)
 {
-    for (var i = 0; i < array.Length / 2 - 1; i++)
+    for (var i = array.Length / 2 - 1; i >= 0; i--)
     {
         maxHeapify(array, array.Length, i);
     }
