@@ -15,6 +15,7 @@
 - Алгоритмы со сложностью `O(n*log(n))`.
    - [Quicksort - Быстрая сортировка](./Sorting/Quicksort/Quicksort.md).
    - [Merge sort - Сортировка слиянием](./Sorting/MergeSort/MergeSort.md).
+   - [Heap sort - Сортировка кучей (Пирамидальная сортировка)](./Sorting/HeapSort/HeadSort.md).
 
 ## Графы (сети)
 
