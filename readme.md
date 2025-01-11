@@ -16,10 +16,11 @@
   - Алгоритмы со сложностью `O(n*log(n))`.
      - [Quicksort - Быстрая сортировка](./Sorting/Quicksort/Quicksort.md).
      - [Merge sort - Сортировка слиянием](./Sorting/MergeSort/MergeSort.md).
-     - [Heap sort - Сортировка кучей (Пирамидальная сортировка)](./Sorting/HeapSort/HeadSort.md).
+     - [Heap sort - Сортировка кучей (Пирамидальная сортировка)](./Sorting/HeapSort/HeapSort.md).
 - Алгоритмы, не основывающиеся на сравнениях.
    - [Counting sort - Сортировка подсчётом](./Sorting/CountingSort/CountingSort.md).
    - [Radix sort - Поразрядная сортировка](./Sorting/RadixSort/RadixSort.md).
+   - [Bucket sort - Блочная сортировка (Корзинная сортировка)](./Sorting/BucketSort/BucketSort.md).
 
 ## Графы (сети)
 
