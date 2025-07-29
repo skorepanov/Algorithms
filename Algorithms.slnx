@@ -1,0 +1,23 @@
+<Solution>
+  <Folder Name="/Graph/">
+    <Project Path="Graph/BreadthFirstSearch/BreadthFirstSearch.csproj" />
+    <Project Path="Graph/DepthFirstSearch/DepthFirstSearch.csproj" />
+  </Folder>
+  <Folder Name="/Search/">
+    <Project Path="Search/BinarySearch/BinarySearch.csproj" />
+    <Project Path="Search/InterpolationSearch/InterpolationSearch.csproj" />
+    <Project Path="Search/LinearSearch/LinearSearch.csproj" />
+  </Folder>
+  <Folder Name="/Sorting/">
+    <Project Path="Sorting/BubbleSort/BubbleSort.csproj" />
+    <Project Path="Sorting/BucketSort/BucketSort.csproj" />
+    <Project Path="Sorting/CountingSort/CountingSort.csproj" />
+    <Project Path="Sorting/HeapSort/HeapSort.csproj" />
+    <Project Path="Sorting/InsertionSort/InsertionSort.csproj" />
+    <Project Path="Sorting/MergeSort/MergeSort.csproj" />
+    <Project Path="Sorting/Quicksort/Quicksort.csproj" />
+    <Project Path="Sorting/RadixSort/RadixSort.csproj" />
+    <Project Path="Sorting/SelectionSort/SelectionSort.csproj" />
+  </Folder>
+  <Project Path="EuclideanAlgorithm/EuclideanAlgorithm.csproj" />
+</Solution>
