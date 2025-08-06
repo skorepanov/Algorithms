@@ -22,6 +22,10 @@
    - [Radix sort - Поразрядная сортировка](./Sorting/RadixSort/RadixSort.md).
    - [Bucket sort - Блочная сортировка (Корзинная сортировка)](./Sorting/BucketSort/BucketSort.md).
 
+## Бинарное дерево
+
+- [Pre-order traversal - Прямой обход](./BinaryTree/PreOrderTraversal/PreOrderTraversal.md)
+
 ## Графы (сети)
 
 - [Breadth-First Search (BFS) - Поиск в ширину](./Graph/BreadthFirstSearch/BreadthFirstSearch.md).
