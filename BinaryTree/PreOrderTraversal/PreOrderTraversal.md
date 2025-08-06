@@ -18,6 +18,8 @@
 
 ## Сложность алгоритма (рекурсивная реализация)
 
+- Сложность одинакова для pre-order traversal, [in-order traversal](../InOrderTraversal/InOrderTraversal.md) и post-order traversal.
+
 - Time complexity: `O(n)`.
   - где `n` - число вершин дерева.
 - Space complexity:

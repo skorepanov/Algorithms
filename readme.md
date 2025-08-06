@@ -25,6 +25,7 @@
 ## Бинарное дерево
 
 - [Pre-order traversal - Прямой обход](./BinaryTree/PreOrderTraversal/PreOrderTraversal.md)
+- [In-order traversal - Симметричный (центрированный) обход](./BinaryTree/InOrderTraversal/InOrderTraversal.md)
 
 ## Графы (сети)
 

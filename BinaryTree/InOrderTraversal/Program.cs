@@ -22,8 +22,8 @@ void traverse(TreeNode? node, List<int> visited)
         return;
     }
 
-    visited.Add(node.Value);
     traverse(node.Left, visited);
+    visited.Add(node.Value);
     traverse(node.Right, visited);
 }
 

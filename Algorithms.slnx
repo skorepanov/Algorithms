@@ -1,6 +1,7 @@
 <Solution>
   <Folder Name="/BinaryTree/">
     <Project Path="BinaryTree\PreOrderTraversal\PreOrderTraversal.csproj" />
+    <Project Path="BinaryTree\InOrderTraversal\InOrderTraversal.csproj" />
   </Folder>
   <Folder Name="/Graph/">
     <Project Path="Graph/BreadthFirstSearch/BreadthFirstSearch.csproj" />
