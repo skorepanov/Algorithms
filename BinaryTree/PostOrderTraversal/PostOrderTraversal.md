@@ -1,6 +1,6 @@
-# In-order traversal - Симметричный обход (центрированный обход)
+# Post-order traversal - Обратный обход
 
-- Порядок обхода: влево, корень, вправо.
+- Порядок обхода: влево, вправо, корень.
 
 ## Пример
 
@@ -14,11 +14,11 @@
     6   7   9
 ```
 
-- Обход: 4, 2, 6, 5, 7, 1, 3, 9, 8.
+- Обход: 4, 6, 7, 5, 2, 9, 8, 3, 1.
 
 ## Сложность алгоритма (рекурсивная реализация)
 
-- Сложность одинакова для [pre-order traversal](../PreOrderTraversal/PreOrderTraversal.md), in-order traversal и [post-order traversal](../PostOrderTraversal/PostOrderTraversal.md).
+- Сложность одинакова для [pre-order traversal](../PreOrderTraversal/PreOrderTraversal.md), [in-order traversal](../InOrderTraversal/InOrderTraversal.md) и post-order traversal.
 
 - Time complexity: `O(n)`.
     - где `n` - число вершин дерева.

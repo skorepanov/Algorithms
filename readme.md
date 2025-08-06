@@ -26,6 +26,7 @@
 
 - [Pre-order traversal - Прямой обход](./BinaryTree/PreOrderTraversal/PreOrderTraversal.md)
 - [In-order traversal - Симметричный (центрированный) обход](./BinaryTree/InOrderTraversal/InOrderTraversal.md)
+- [Post-order traversal - Обратный обход](./BinaryTree/PostOrderTraversal/PostOrderTraversal.md)
 
 ## Графы (сети)
 
