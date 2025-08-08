@@ -1,6 +1,7 @@
 <Solution>
   <Folder Name="/BinaryTree/">
     <Project Path="BinaryTree\InOrderTraversal\InOrderTraversal.csproj" />
+    <Project Path="BinaryTree\LevelOrderTraversal\LevelOrderTraversal.csproj" />
     <Project Path="BinaryTree\PostOrderTraversal\PostOrderTraversal.csproj" />
     <Project Path="BinaryTree\PreOrderTraversal\PreOrderTraversal.csproj" />
   </Folder>

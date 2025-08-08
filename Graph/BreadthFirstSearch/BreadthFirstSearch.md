@@ -2,8 +2,11 @@
 
 ## Сложность алгоритма
 
-- Time complexity: `O(V+E)`, где V - кол-во вершин (vertices), E - кол-во рёбер (edges).
-- Space complexity: `O(V)`, где V - кол-во вершин (vertices).
+- Time complexity: `O(V+E)`.
+- Space complexity: `O(V)`.
+- Где:
+  - `V` - количество вершин (vertices).
+  - `E` - количество рёбер (edges).
 
 ## Назначение
 
@@ -13,6 +16,7 @@
 
 ## Примеры использования
 
+- [Обойти бинарное дерево по уровням](../../BinaryTree/LevelOrderTraversal/LevelOrderTraversal.md).
 - Найти ближайшего врача.
 - Вычислить кратчайший путь к победе в игре в шашки.
 - Реализовать проверку правописания.
