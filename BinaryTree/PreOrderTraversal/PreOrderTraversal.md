@@ -1,6 +1,6 @@
 # Pre-order traversal - Прямой обход
 
-- Порядок обхода: корень, влево, вправо
+- Порядок обхода: корень, влево, вправо.
 
 ## Пример
 
@@ -16,7 +16,7 @@
 
 - Обход: 1, 2, 4, 5, 6, 7, 3, 8, 9.
 
-## Сложность алгоритма (рекурсивная реализация)
+## Сложность алгоритма (рекурсивная и итеративная реализации)
 
 - Сложность одинакова для pre-order traversal, [in-order traversal](../InOrderTraversal/InOrderTraversal.md) и [post-order traversal](../PostOrderTraversal/PostOrderTraversal.md).
 

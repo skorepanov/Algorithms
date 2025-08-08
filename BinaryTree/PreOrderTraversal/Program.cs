@@ -10,12 +10,13 @@
             left: new TreeNode(9))));
 
 var traversal = new List<int>();
-traverse(root, traversal);
+//traverseRecursively(root, traversal);
+traversal = traverseIteratively(root);
 Console.WriteLine(string.Join(separator: ", ", traversal));
 return;
 
-
-void traverse(TreeNode? node, List<int> visited)
+#region Вариант 1 - Рекурсивный обход
+void traverseRecursively(TreeNode? node, List<int> visited)
 {
     if (node is null)
     {
@@ -23,9 +24,40 @@ void traverse(TreeNode? node, List<int> visited)
     }
 
     visited.Add(node.Value);
-    traverse(node.Left, visited);
-    traverse(node.Right, visited);
+    traverseRecursively(node.Left, visited);
+    traverseRecursively(node.Right, visited);
 }
+#endregion
+
+#region Вариант 2 - Итеративный обход
+List<int> traverseIteratively(TreeNode root)
+{
+    var visited = new List<int>();
+
+    var pendingNodes = new Stack<TreeNode>();
+    pendingNodes.Push(root);
+
+    TreeNode currentNode;
+
+    while (pendingNodes.Count > 0)
+    {
+        currentNode = pendingNodes.Pop();
+        visited.Add(currentNode.Value);
+
+        if (currentNode.Right is not null)
+        {
+            pendingNodes.Push(currentNode.Right);
+        }
+
+        if (currentNode.Left is not null)
+        {
+            pendingNodes.Push(currentNode.Left);
+        }
+    }
+
+    return visited;
+}
+#endregion
 
 public class TreeNode
 {
