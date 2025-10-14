@@ -10,6 +10,7 @@
     <Project Path="Graph/DepthFirstSearch/DepthFirstSearch.csproj" />
   </Folder>
   <Folder Name="/NaryTree/">
+    <Project Path="NaryTree\NaryTreePostOrderTraversal\NaryTreePostOrderTraversal.csproj" Type="Classic C#" />
     <Project Path="NaryTree\NaryTreePreOrderTraversal\NaryTreePreOrderTraversal.csproj" Type="Classic C#" />
   </Folder>
   <Folder Name="/Search/">

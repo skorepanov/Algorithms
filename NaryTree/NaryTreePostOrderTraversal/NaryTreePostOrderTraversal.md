@@ -1,6 +1,6 @@
-# Pre-order traversal - Прямой обход
+# Post-order traversal - Обратный обход
 
-- Порядок обхода: корень, дочерние узлы.
+- Порядок обхода: дочерние узлы, корень.
 
 ## Пример
 
@@ -12,11 +12,11 @@
     5 6  7
 ```
 
-- Обход: 1, 2, 3, 5, 6, 4, 7.
+- Обход: 2, 5, 6, 3, 7, 4, 1.
 
 ## Сложность алгоритма (рекурсивная реализация)
 
-- Сложность одинакова для pre-order traversal и [post-order traversal](../NaryTreePostOrderTraversal/NaryTreePostOrderTraversal.md).
+- Сложность одинакова для [pre-order traversal](../NaryTreePreOrderTraversal/NaryTreePreOrderTraversal.md) и post-order traversal.
 
 - Time complexity: `O(n)`.
     - где `n` - число вершин дерева.
@@ -26,4 +26,4 @@
     - в худшем случае: `O(n)`, т.е. `h=n`.
         - когда дерево вытянуто.
     - Пояснение:
-      - В рекурсивном варианте сложность связана со стеком рекурсии.
+        - В рекурсивном варианте сложность связана со стеком рекурсии.
