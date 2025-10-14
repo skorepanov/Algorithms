@@ -33,6 +33,7 @@
 
 - [Pre-order traversal - Прямой обход](./NaryTree/NaryTreePreOrderTraversal/NaryTreePreOrderTraversal.md).
 - [Post-order traversal - Обратный обход](./NaryTree/NaryTreePostOrderTraversal/NaryTreePostOrderTraversal.md).
+- [Level-order traversal - Обход в порядке уровней](./NaryTree/NaryTreeLevelOrderTraversal/NaryTreeLevelOrderTraversal.md).
 
 ## Графы (сети)
 

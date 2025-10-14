@@ -43,7 +43,7 @@ public class Node
     public readonly int Value;
     public readonly List<Node>? Children;
 
-    public Node(int value = 0, List<Node> children = null)
+    public Node(int value = 0, List<Node>? children = null)
     {
         Value = value;
         Children = children;
