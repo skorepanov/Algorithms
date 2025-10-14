@@ -9,6 +9,9 @@
     <Project Path="Graph/BreadthFirstSearch/BreadthFirstSearch.csproj" />
     <Project Path="Graph/DepthFirstSearch/DepthFirstSearch.csproj" />
   </Folder>
+  <Folder Name="/NaryTree/">
+    <Project Path="NaryTree\NaryTreePreOrderTraversal\NaryTreePreOrderTraversal.csproj" Type="Classic C#" />
+  </Folder>
   <Folder Name="/Search/">
     <Project Path="Search/BinarySearch/BinarySearch.csproj" />
     <Project Path="Search/InterpolationSearch/InterpolationSearch.csproj" />

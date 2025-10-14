@@ -29,6 +29,10 @@
 - [Post-order traversal - Обратный обход](./BinaryTree/PostOrderTraversal/PostOrderTraversal.md).
 - [Level-order traversal - Обход в порядке уровней](./BinaryTree/LevelOrderTraversal/LevelOrderTraversal.md).
 
+## N-арное дерево
+
+- [Pre-order traversal - Прямой обход](./NaryTree/NaryTreePreOrderTraversal/NaryTreePreOrderTraversal.md).
+
 ## Графы (сети)
 
 - [Breadth-First Search (BFS) - Поиск в ширину](./Graph/BreadthFirstSearch/BreadthFirstSearch.md).
