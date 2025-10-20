@@ -20,6 +20,10 @@
 - Большие объёмы данных.
 - Параллельная сортировка.
 
-## Пример
+## Пример - Top-down
 
-![](MergeSort.png)
+![](MergeSort_TopDown.png)
+
+## Пример - Bottom-Up
+
+![](MergeSort_BottomUp.png)
